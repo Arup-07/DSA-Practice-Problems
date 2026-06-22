@@ -10,6 +10,11 @@ Output: 3
 Explanation: F(4) = F(3) + F(2) = 2 + 1 = 3.*/
 
 class q3 {
+    public static void main(String[] args) {
+        q3 obj=new q3();
+        int n=4;
+        System.out.println(obj.fib(n));
+    }
     public int fib(int n) {
         if(n<=0 )
           return 0;

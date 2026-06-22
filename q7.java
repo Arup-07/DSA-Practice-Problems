@@ -8,6 +8,11 @@ Output: 2*/
 
 import java.util.HashSet;
 class q7 {
+        public static void main(String[] args) {
+            q7 obj=new q7();
+            String[] emails={"test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"};
+            System.out.println(obj.numUniqueEmails(emails));
+        }
     public int numUniqueEmails(String[] emails) {
         HashSet<String> set= new HashSet<>();
         // for(int i=0;i<emails.length;i++)

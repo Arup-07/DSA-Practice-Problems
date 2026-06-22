@@ -6,6 +6,11 @@ Output: true*/
 
 
 public class q2 {
+    public static void main(String[] args) {
+        q2 obj=new q2();
+        int x=121;
+        System.out.println(obj.isPalindrome(x));
+    }
     public boolean isPalindrome(int x) {
         if(x<0)
            return false;

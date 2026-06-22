@@ -7,6 +7,11 @@ Output: 13
 Explanation: You can exchange 3 empty bottles for 1 full bottle, and then exchange the remaining 0 empty bottles for 0 more full bottles.*/
 
 class q6 {
+    public static void main(String[] args) {
+        q6 obj=new q6();
+        int numBottles=9,numExchange=3;
+        System.out.println(obj.numWaterBottles(numBottles, numExchange));
+    }
     public int numWaterBottles(int numBottles, int numExchange) {
         int x=numBottles;
         while(numBottles>=numExchange)

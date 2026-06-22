@@ -5,6 +5,14 @@
 
 
 public class q1 {
+    public static void main(String[] args) {
+        q1 obj=new q1();
+        int[] nums={2,7,11,15};
+        int target=9;
+        int[] res=obj.twoSum(nums, target);
+        for(int i:res)
+            System.out.print(i+" ");
+    }
     public int[] twoSum(int[] nums, int target) {
         for(int i=0;i<nums.length;i++)
         {

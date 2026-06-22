@@ -8,6 +8,11 @@ Output: 4*/
 
 
 public class q5 {
+    public static void main(String[] args) {
+        q5 obj=new q5();
+        int n=4;
+        System.out.println(obj.tribonacci(n));
+    }
     public int tribonacci(int n) {
         if(n<=0)
            return 0;

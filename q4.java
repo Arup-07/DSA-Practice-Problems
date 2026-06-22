@@ -5,6 +5,11 @@ Input: n = 16
 Output: true*/
 
 public class q4 {
+    public static void main(String[] args) {
+        q4 obj=new q4();
+        int n=16;
+        System.out.println(obj.isPowerOfTwo(n));
+    }
     public boolean isPowerOfTwo(int n) {
         if(n==1)
             return true;
