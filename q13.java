@@ -6,7 +6,13 @@ Input: num = [1,2,0,0], k = 34
 Output: [1,2,3,4]*/
 
 import java.util.*;
-class Q13 {
+class q13 {
+    public static void main(String[] args) {
+        q13 obj = new q13();
+        int[] num = {1, 2, 0, 0};
+        int k = 34;
+        System.out.println(obj.addToArrayForm(num, k)); // Output: [1, 2, 3, 4]
+    }
     public List<Integer> addToArrayForm(int[] num, int k) {
         List<Integer> ans = new ArrayList<>();
         int i = num.length - 1;
