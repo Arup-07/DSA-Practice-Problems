@@ -5,7 +5,7 @@ Example 1:
 Input: nums = [3,2,3]
 Output: 3*/
 
-
+import java.util.HashMap;
 class q25 
 {
     public static void main(String args[])
