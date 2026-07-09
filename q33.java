@@ -6,12 +6,15 @@ Input: digits = [1,2,3]
 Output: [1,2,4]
 */
 
+import java.util.Arrays;
 
 class q33 {
     public static void main(String args[])
     {
         q33 ob= new q33();
-        
+        int[] digits = {1, 2, 3};
+        int[] ans = ob.plusOne(digits);
+        System.out.println(Arrays.toString(ans));
     }
     public int[] plusOne(int[] digits) {
 
