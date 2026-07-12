@@ -13,10 +13,14 @@ import java.util.*;
 
 class q38 {
     public static void main(String[] args) {
-       
+        q38 ob = new q38();
+        int[] arr = {40, 10, 20, 30};
+        int[] result = ob.arrayRankTransform(arr);
+        System.out.println(Arrays.toString(result));
     }
 
     public int[] arrayRankTransform(int[] arr) {
+        HashMap<Integer, Integer> map = new HashMap<>();
         int[] nums=new int[arr.length];
         for(int i=0;i<arr.length;i++){
             nums[i]=arr[i];
