@@ -20,29 +20,29 @@ q2.java
 q3.java
 ...
 ```
- 📚 Topics Covered
-
+📚 DSA Topics Covered
 - Arrays
 - Strings
-- Sorting
-- Searching
-- Hashing
-- Recursion
+- Matrix
 - Linked Lists
-- Stacks
-- Queues
-- Trees
-- Binary Search Trees
-- Heaps
-- Graphs
-- Dynamic Programming
-- Greedy Algorithms
-- Backtracking
-- Bit Manipulation
-- Sliding Window
+- Stack
+- HashMap
+- HashSet
+- Java Collections
+- Searching
+- Binary Search
+- Rotated Binary Search
+- Sorting
 - Two Pointers
 - Prefix Sum
-- Mathematics
+- Greedy Algorithms
+- Kadane's Algorithm
+- Frequency Counting
+- StringBuilder
+- Character Manipulation
+- Mathematical Algorithms
+- Time & Space Complexity Analysis
+
 
 🎯 Purpose
 This repository helps me:
@@ -61,6 +61,6 @@ I will continue adding solutions as I solve more problems.
 This repository is primarily for my personal learning journey. However, suggestions and improvements are always welcome!
 
 ⭐ Support
-If you find this repository useful, feel free to **Star ⭐ the repository**.
+If you find this repository useful, feel free to Star ⭐ the repository.
 
 Happy Coding! 🚀
