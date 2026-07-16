@@ -7,9 +7,9 @@
 */
 
 
-class q27 {
+class q41 {
     public static void main(String[] args) {
-        q27 obj = new q27();
+        q41 obj = new q41();
         int[] nums = {1,3,5,6};
         int target = 5;
         System.out.println(obj.searchInsert(nums,target));
