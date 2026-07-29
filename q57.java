@@ -6,7 +6,6 @@ Input: nums = [2,2,1]
 Output: 1
 */
 
-
 import java.util.*;
 class q57 {
     public static void main(String[] args) {
