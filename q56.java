@@ -1,4 +1,4 @@
-/*LeetCode 1103:Distribute Candies To People
+/*LeetCode 1103: Distribute Candies To People
 We distribute some number of candies, to a row of n = num_people people in the following way:
 We then give 1 candy to the first person, 2 candies to the second person, and so on until we give n candies to the last person.
 Then, we go back to the start of the row, giving n + 1 candies to the first person, n + 2 candies to the second person, and so on until we give 2 * n candies to the last person.
