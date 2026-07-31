@@ -11,7 +11,7 @@ Output: true
 
 
 
-import java.util.Arrays;
+import java.util.*;
 public class q61 {
     public static void main(String[] args) {
         q61 obj = new q61();
