@@ -31,6 +31,7 @@ public class q75 {
             sumEven=temp;
         }
         return sumEven;
+        //return n; //since sumOdd= n^2 and sumEven=n(n+1) and gcd(n^2,n(n+1))=n
     }
 }
 
