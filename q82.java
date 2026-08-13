@@ -1,4 +1,4 @@
-/*LeetCOde :Day Of The Year
+/*LeetCOde 1154:Day Of The Year
 Given a string date representing a Gregorian calendar date formatted as YYYY-MM-DD, return the day number of the year.
 Example 1:
 Input: date = "2019-01-09"
