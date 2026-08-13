@@ -1,4 +1,20 @@
+/*LeetCOde :Day Of The Year
+Given a string date representing a Gregorian calendar date formatted as YYYY-MM-DD, return the day number of the year.
+Example 1:
+Input: date = "2019-01-09"
+Output: 9
+*/
+
+import java.util.*;
 public class q82 {
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        q82 obj=new q82();
+        String s=sc.next();
+        int res=obj.dayOfYear(s);
+        System.out.println(res);
+    }
     public int dayOfYear(String date) {
         String m=date.substring(5,7), d=date.substring(8),y=date.substring(0,4);
         int mm=Integer.parseInt(m), dd=Integer.parseInt(d),yy=Integer.parseInt(y),feb=28;
