@@ -11,3 +11,36 @@ Output: 3
 
 
 import java.util.*;
+class q84 {
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        q84 obj=new q84();
+        int dividend=sc.nextInt();
+        int divisor=sc.nextInt();
+        int res=obj.divide(dividend,divisor);
+        System.out.println(res);
+    }
+    public int divide(int dividend, int divisor) {
+        if(dividend==Integer.MIN_VALUE && divisor==-1)
+            return Integer.MAX_VALUE;
+        boolean n=(dividend<0)^(divisor<0);
+        long a=Math.abs((long)dividend), b=Math.abs((long)divisor), q=0;
+        while(a>=b)
+        {
+            long temp=b, m=1;
+            while(a>=temp+temp)
+            {
+                temp+=temp;
+                m+=m;
+            }
+            a-=temp;
+            q+=m;
+        }
+        if(n)
+            q=-q;
+            
+        return (int)q;
+        
+    }
+}
